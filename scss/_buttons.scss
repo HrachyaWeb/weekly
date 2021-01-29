@@ -1,0 +1,53 @@
+.hero-buttons{
+  display: flex;
+  align-items: center;
+  margin-bottom: 160px;
+
+}
+.cta-button{
+  display: block;
+  padding: 17px 71px;
+  font-size: 24px;
+  line-height: 28px;
+  color: $main_green;
+  background-color: #fff;
+  border:2px solid #fff;
+  transition: all .4s ease;
+  &:hover,
+  &:focus{
+    text-decoration: none;
+    background: $main_green;
+    color:#fff;
+transition: all .4s ease;
+  }
+}
+.seeMore-button{
+  font-size: 24px;
+  line-height: 122%;
+  Text-align: center;
+  display: block;
+color: #FEFDFD;
+  transition: all .4s ease;
+
+  &::after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #FEFDFD;
+    margin-top: 10px;
+
+  }
+  &:hover,
+  &:focus{
+    text-decoration: none;
+    color: #FEFDFD;
+  }
+
+
+}
+.seeMore-button:hover::after,
+.seeMore-button:focus::after{
+  margin-top: 5px;
+  transition: all .4s ease;
+}
