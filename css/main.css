@@ -23,14 +23,14 @@ a:hover, a:focus {
   padding: 17px 71px;
   font-size: 24px;
   line-height: 28px;
-  color: #5B764E;
+  color: #506e45;
   background-color: #fff;
   border: 2px solid #fff;
   -webkit-transition: all .4s ease;
   transition: all .4s ease; }
   .cta-button:hover, .cta-button:focus {
     text-decoration: none;
-    background: #5B764E;
+    background: #506e45;
     color: #fff;
     -webkit-transition: all .4s ease;
     transition: all .4s ease; }
@@ -61,7 +61,7 @@ a:hover, a:focus {
   transition: all .4s ease; }
 
 .hero {
-  background: #5B764E url("../images/TRIANGLE.svg") no-repeat right -20% bottom -120px;
+  background: #506e45 url("../images/TRIANGLE.svg") no-repeat right -20% bottom -120px;
   background-size: 831px 813px;
   padding: 80px 0; }
   .hero .w-header {
@@ -186,3 +186,53 @@ a:hover, a:focus {
     .gCategories-seeMore__arrow {
       font-size: 24px;
       display: inline-block; }
+
+.gSubscribe {
+  padding: 130px 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(184, 224, 165, 0.76)), to(rgba(44, 81, 27, 0.7)));
+  background: linear-gradient(180deg, rgba(184, 224, 165, 0.76) 0%, rgba(44, 81, 27, 0.7) 100%); }
+  .gSubscribe-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .gSubscribe-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    margin-bottom: 80px; }
+  .gSubscribe-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .gSubscribe-form__label {
+      margin: 0;
+      padding: 0; }
+    .gSubscribe-form__input {
+      display: block;
+      padding: 10px;
+      background: #C4C4C4;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      width: 400px; }
+    .gSubscribe-form__submit {
+      border: none;
+      background-color: #fff;
+      color: #506e45;
+      padding: 10px 71px; }
+      .gSubscribe-form__submit:focus, .gSubscribe-form__submit:hover {
+        background: #f2f2f2; }

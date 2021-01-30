@@ -1,0 +1,46 @@
+.gSubscribe{
+  padding: 130px 0;
+  background: linear-gradient(180deg, rgba(184, 224, 165, 0.76) 0%, rgba(44, 81, 27, 0.7) 100%);
+  &-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  &-title{
+     font-style: normal;
+     font-weight: 900;
+     font-size: 48px;
+     line-height: 56px;
+     text-align: center;
+     font-variant: small-caps;
+     color: #FFFFFF;
+     margin-bottom: 80px;
+   }
+  &-form{
+    display: flex;
+    &__label{
+      margin: 0;
+      padding: 0;
+    }
+    &__input{
+      display: block;
+      padding: 10px ;
+      background: #C4C4C4;
+      font-size: 18px;
+      border: none;
+      outline:none;
+      width: 400px;
+    }
+    &__submit{
+      border:none;
+      background-color: #fff;
+      color:$main_green;
+      padding: 10px 71px;
+      &:focus,&:hover{
+        background: #f2f2f2;
+      }
+    }
+  }
+}
