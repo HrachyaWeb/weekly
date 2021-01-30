@@ -61,7 +61,7 @@ a:hover, a:focus {
   transition: all .4s ease; }
 
 .hero {
-  background: #5B764E url("../images/TRIANGLE.svg") no-repeat right -200px bottom -120px;
+  background: #5B764E url("../images/TRIANGLE.svg") no-repeat right -20% bottom -120px;
   background-size: 831px 813px;
   padding: 80px 0; }
   .hero .w-header {

@@ -7,7 +7,7 @@ $(document).ready(function () {
         let pageY = e.pageY - ($(window).height() / 2);
         let newvalueX = width * pageX * -1 - 25;
         let newvalueY = height * pageY * -1 - 50;
-        $(".hero").css("background-position", (700-newvalueX)+"px     "+(250-newvalueY)+"px");
+        $(".hero").css("background-position", (100-newvalueX)+"%"+(100-newvalueY)+"%");
 
     });
     gsap.registerPlugin(ScrollTrigger);
