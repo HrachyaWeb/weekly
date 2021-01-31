@@ -1,4 +1,64 @@
 .gFooter{
   background: $main_green;
   padding: 130px 0;
+  &-title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    font-variant: small-caps;
+    color: #FEFDFD;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  &-list{
+    display: block;
+
+    list-style: none;
+
+  li{
+    display: block;
+    margin-bottom: 10px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+
+    a{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #C4C4C4;
+    }
+  }
+
+  }
+  &-socialIcons{
+    display: flex;
+    list-style: none;
+    margin-bottom: 60px;
+    li{
+      margin-left: 15px;
+      &:first-child{
+        margin-left: 0;
+      }
+      a{
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFF;
+      }
+    }
+  }
+  &-desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+    margin-bottom: 40px;
+  }
+  .cta-button{
+    display: inline-block;
+  }
 }
