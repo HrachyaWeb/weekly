@@ -3,6 +3,7 @@
   background: linear-gradient(180deg, rgba(184, 224, 165, 0.76) 0%, rgba(44, 81, 27, 0.7) 100%);
   position: relative;
   transition: all .5s ease;
+  overflow: hidden;
   &:hover .gSubscribe-bg{
     left: -14%;
     transform: rotate(-50deg);
