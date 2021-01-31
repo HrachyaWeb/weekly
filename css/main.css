@@ -190,7 +190,22 @@ a:hover, a:focus {
 .gSubscribe {
   padding: 130px 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(184, 224, 165, 0.76)), to(rgba(44, 81, 27, 0.7)));
-  background: linear-gradient(180deg, rgba(184, 224, 165, 0.76) 0%, rgba(44, 81, 27, 0.7) 100%); }
+  background: linear-gradient(180deg, rgba(184, 224, 165, 0.76) 0%, rgba(44, 81, 27, 0.7) 100%);
+  position: relative;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease; }
+  .gSubscribe:hover .gSubscribe-bg {
+    left: -14%;
+    -webkit-transform: rotate(-50deg);
+            transform: rotate(-50deg);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease; }
+  .gSubscribe-bg {
+    position: absolute;
+    left: 0;
+    top: -330px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease; }
   .gSubscribe-block {
     display: -webkit-box;
     display: -ms-flexbox;

@@ -14,7 +14,7 @@ $(document).ready(function () {
     let t1=gsap.timeline({
       scrollTrigger: {
           trigger: ".gCategories-row",
-          toggleActions: "restart none reverse none",
+
           start: "top center",
 
 
@@ -84,11 +84,15 @@ $(document).ready(function () {
 let tSub=gsap.timeline({
     scrollTrigger: {
         trigger: ".gSubscribe",
-        toggleActions: "restart none reverse none",
         start: "top center",
 
     }
 
+});
+tSub.from(".gSubscribe-bg",{
+
+    opacity:0,
+    duration:0.5
 });
 tSub.from(".gSubscribe-title",{
     y:20,
@@ -101,7 +105,6 @@ tSub.from(".gSubscribe-form__input",{
     duration:0.5
 });
 tSub.from(".gSubscribe-form__submit",{
-
     x:10000,
     duration:0.5
 });

@@ -1,6 +1,19 @@
 .gSubscribe{
   padding: 130px 0;
   background: linear-gradient(180deg, rgba(184, 224, 165, 0.76) 0%, rgba(44, 81, 27, 0.7) 100%);
+  position: relative;
+  transition: all .5s ease;
+  &:hover .gSubscribe-bg{
+    left: -14%;
+    transform: rotate(-50deg);
+    transition: all .5s ease;
+  }
+  &-bg {
+    position: absolute;
+    left: 0;
+    top: -330px;
+    transition: all .5s ease;
+  }
   &-block{
     display: flex;
     justify-content: center;
