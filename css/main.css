@@ -1,6 +1,10 @@
 body {
   font-family: "Roboto",sans-serif;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%; }
+  body.no-overflow {
+    overflow: hidden; }
 
 img {
   max-width: 100%; }
@@ -67,43 +71,94 @@ a:hover, a:focus {
   -webkit-transition: all .4s ease;
   transition: all .4s ease; }
 
+.w-header {
+  padding-bottom: 80px;
+  background-color: #506e45;
+  padding-top: 80px; }
+  .w-header-heading {
+    color: #FEFDFD;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-variant: small-caps; }
+  .w-header .menu-burger {
+    display: block;
+    margin-left: auto; }
+    .w-header .menu-burger span {
+      display: block;
+      height: 2px;
+      background-color: #FFFFFF;
+      margin-left: auto;
+      -webkit-transition: all .5s ease;
+      transition: all .5s ease; }
+    .w-header .menu-burger span:nth-child(1) {
+      margin-bottom: 10px;
+      width: 40px;
+      margin-right: 14px; }
+    .w-header .menu-burger span:nth-child(2) {
+      width: 30px; }
+    .w-header .menu-burger:hover span:nth-child(1), .w-header .menu-burger:focus span:nth-child(1) {
+      margin-right: 0;
+      -webkit-transition: all .5s ease;
+      transition: all .5s ease; }
+    .w-header .menu-burger:hover span:nth-child(2), .w-header .menu-burger:focus span:nth-child(2) {
+      width: 40px;
+      -webkit-transition: all .5s ease;
+      transition: all .5s ease; }
+
+.gMenu {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(80, 110, 69, 0.85);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 2s all ease;
+  transition: 2s all ease; }
+  .gMenu.show {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transition: 2s all ease;
+    transition: 2s all ease; }
+  .gMenu-close {
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    font-size: 48px;
+    color: #fff; }
+    .gMenu-close:hover, .gMenu-close:focus {
+      color: #C4C4C4; }
+  .gMenu-list {
+    list-style: none; }
+    .gMenu-list li {
+      margin-bottom: 10px; }
+      .gMenu-list li:hover a, .gMenu-list li:focus a {
+        color: #C4C4C4; }
+      .gMenu-list li:last-child {
+        margin-bottom: 0; }
+      .gMenu-list li > a {
+        color: #ffffff;
+        font-size: 30px;
+        line-height: 32px;
+        text-transform: uppercase; }
+
 .hero {
   background: #506e45 url("../images/TRIANGLE.svg") no-repeat right -20% bottom -120px;
   background-size: 831px 813px;
   padding: 80px 0; }
-  .hero .w-header {
-    margin-bottom: 167px; }
-    .hero .w-header-heading {
-      color: #FEFDFD;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 24px;
-      line-height: 28px;
-      font-variant: small-caps; }
-    .hero .w-header .menu-burger {
-      display: block;
-      margin-left: auto; }
-      .hero .w-header .menu-burger span {
-        display: block;
-        height: 2px;
-        background-color: #FFFFFF;
-        margin-left: auto;
-        -webkit-transition: all .5s ease;
-        transition: all .5s ease; }
-      .hero .w-header .menu-burger span:nth-child(1) {
-        margin-bottom: 10px;
-        width: 40px;
-        margin-right: 14px; }
-      .hero .w-header .menu-burger span:nth-child(2) {
-        width: 30px; }
-      .hero .w-header .menu-burger:hover span:nth-child(1), .hero .w-header .menu-burger:focus span:nth-child(1) {
-        margin-right: 0;
-        -webkit-transition: all .5s ease;
-        transition: all .5s ease; }
-      .hero .w-header .menu-burger:hover span:nth-child(2), .hero .w-header .menu-burger:focus span:nth-child(2) {
-        width: 40px;
-        -webkit-transition: all .5s ease;
-        transition: all .5s ease; }
   .hero .hero-heading {
     font-style: normal;
     font-weight: bold;
@@ -372,7 +427,7 @@ a:hover, a:focus {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 24px;
     color: #C4C4C4;
     margin-bottom: 40px; }
   .gFooter .cta-button {

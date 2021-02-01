@@ -10,6 +10,18 @@ $(document).ready(function () {
         $(".hero").css("background-position", (100-newvalueX)+"%"+(100-newvalueY)+"%");
 
     });
+    $(".menu-burger").click(function (e) {
+        e.preventDefault();
+        $(".gMenu").addClass("show");
+        $("body").addClass("no-overflow");
+
+    });
+    $(".gMenu-close").click(function (e) {
+        e.preventDefault();
+        $(".gMenu").removeClass("show");
+        $("body").removeClass("no-overflow");
+
+    });
     gsap.registerPlugin(ScrollTrigger);
     let t1=gsap.timeline({
       scrollTrigger: {
@@ -81,7 +93,7 @@ $(document).ready(function () {
 
 });
 
-let tSub=gsap.timeline({
+let tgSub=gsap.timeline({
     scrollTrigger: {
         trigger: ".gSubscribe",
         start: "top center",
@@ -89,22 +101,59 @@ let tSub=gsap.timeline({
     }
 
 });
-tSub.from(".gSubscribe-bg",{
+tgSub.from(".gSubscribe-bg",{
 
     opacity:0,
     duration:0.5
 });
-tSub.from(".gSubscribe-title",{
+tgSub.from(".gSubscribe-title",{
     y:20,
     opacity:0,
     duration:0.5
 });
-tSub.from(".gSubscribe-form__input",{
+tgSub.from(".gSubscribe-form__input",{
 
     x:-10000,
     duration:0.5
 });
-tSub.from(".gSubscribe-form__submit",{
+tgSub.from(".gSubscribe-form__submit",{
     x:10000,
     duration:0.5
+});
+let tgArticle=gsap.timeline({
+    scrollTrigger: {
+        trigger: ".gArticle",
+        start: "center center",
+
+    }
+
+});
+tgArticle.from(".gArticles-item-1",{
+    opacity:0,
+    x:-30,
+    duration:2
+
+
+
+});
+tgArticle.from(".gArticles-item-2",{
+    opacity:0,
+    x:-30,
+    duration:2
+
+
+});
+tgArticle.from(".gArticles-item-3",{
+    opacity:0,
+    x:-30,
+    duration:2
+
+
+});
+tgArticle.from(".gArticles-reg",{
+    opacity:0,
+    y:-30,
+    duration:1
+
+
 });
