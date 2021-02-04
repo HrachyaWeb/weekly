@@ -42,6 +42,15 @@
       font-style: normal;
       font-weight: 900;
       font-size: 288px;
+      @media (max-width: 1200px) {
+        font-size: 200px;
+      }
+      @media( max-width: 991px){
+        font-size: 170px;
+      }
+      @media( max-width: 767px){
+        font-size: 128px;
+      }
       line-height: 337px;
       /* identical to box height */
 

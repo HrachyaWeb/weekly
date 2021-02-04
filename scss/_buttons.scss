@@ -2,6 +2,9 @@
   display: flex;
   align-items: center;
   margin-bottom: 160px;
+  @media (max-width: 574px) {
+    display:block;
+  }
 
 }
 .cta-button{
@@ -13,6 +16,10 @@
   background-color: #fff;
   border:2px solid #fff;
   transition: all .4s ease;
+  @media (max-width: 574px) {
+      font-size: 18px;
+    text-align: center;
+  }
   &:hover,
   &:focus{
     text-decoration: none;
@@ -28,6 +35,10 @@ transition: all .4s ease;
   display: block;
 color: #FEFDFD;
   transition: all .4s ease;
+  @media (max-width: 574px) {
+    font-size: 18px;
+    text-align: center;
+  }
 
   &::after{
     display: block;
@@ -36,6 +47,10 @@ color: #FEFDFD;
     height: 2px;
     background-color: #FEFDFD;
     margin-top: 10px;
+    @media (max-width: 574px) {
+      width: 108px;
+      margin: 0 auto;
+    }
 
   }
   &:hover,

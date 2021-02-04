@@ -1,19 +1,29 @@
 .gSubscribe{
   padding: 130px 0;
-  background: linear-gradient(180deg, rgba(184, 224, 165, 0.76) 0%, rgba(44, 81, 27, 0.7) 100%);
+  background: #E98C4A;
   position: relative;
   transition: all .5s ease;
   overflow: hidden;
   &:hover .gSubscribe-bg{
     left: -14%;
+    @media(max-width: 1200px){
+      left:-19%
+    }
+    @media(max-width: 991px){
+      left:-12%
+    }
     transform: rotate(-50deg);
     transition: all .5s ease;
   }
   &-bg {
     position: absolute;
     left: 0;
-    top: -330px;
+    top: -130px;
     transition: all .5s ease;
+    width: 250px;
+    @media(max-width: 767px){
+      display: none;
+    }
   }
   &-block{
     display: flex;
@@ -34,9 +44,17 @@
    }
   &-form{
     display: flex;
+    @media (max-width: 574px) {
+     display: block;
+      width: 100%;
+    }
     &__label{
       margin: 0;
       padding: 0;
+      @media (max-width: 574px) {
+        width: 100%;
+        margin-bottom: 30px;
+      }
     }
     &__input{
       display: block;
@@ -46,14 +64,27 @@
       border: none;
       outline:none;
       width: 400px;
+      @media(max-width: 767px){
+        width: 300px;
+      }
+      @media (max-width: 574px) {
+        width: 100%;
+        font-size: 16px;
+      }
     }
     &__submit{
       border:none;
       background-color: #fff;
       color:$main_green;
       padding: 10px 71px;
+      @media (max-width: 574px) {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 41px ;
+      }
       &:focus,&:hover{
         background: #f2f2f2;
+
       }
     }
   }

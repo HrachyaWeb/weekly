@@ -2,8 +2,19 @@
 
 
 .hero{
-  background: $main_green  url("../images/TRIANGLE.svg") no-repeat right -20% bottom -120px;
+  background: $main_green  url("../images/TRIANGLE.svg") no-repeat right -20% bottom -20%;
   background-size:831px 813px ;
+  @media ( max-width:1200px) {
+  background-size: 50%;
+
+  }
+  @media(max-width: 991px){
+    background: $main_green  url("../images/TRIANGLE.svg") no-repeat right -20% top 20%;
+    background-size: 50%;
+  }
+  @media (max-width: 767px) {
+    background: $main_green;
+  }
   padding: 80px 0;
 
 .hero-heading{
@@ -16,14 +27,25 @@
   color: #FBFBFB;
   font-variant: small-caps;
   margin-bottom: 54px;
+  @media(max-width: 574px){
+    font-size: 48px;
+  }
 }
   .hero-button{
     margin-right: 30px;
+    @media (max-width: 574px) {
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
   }
   .hero-article{
     display: block;
     color: #fff;
     text-decoration: none;
+    @media(max-width: 991px){
+      margin-bottom: 60px;
+    }
+
 
 
     &__title{

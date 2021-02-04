@@ -1,5 +1,7 @@
 $(document).ready(function () {
     $(".hero").mousemove(function (e) {
+        let windwidth=window.innerWidth;
+        if(windwidth>991){
         const movementStrength = 25;
         let height = movementStrength / $(window).height();
         let width = movementStrength / $(window).width();
@@ -7,7 +9,8 @@ $(document).ready(function () {
         let pageY = e.pageY - ($(window).height() / 2);
         let newvalueX = width * pageX * -1 - 25;
         let newvalueY = height * pageY * -1 - 50;
-        $(".hero").css("background-position", (100-newvalueX)+"%"+(100-newvalueY)+"%");
+
+        $(".hero").css("background-position", (100-newvalueX)+"%"+(100-newvalueY)+"%");}
 
     });
     $(".menu-burger").click(function (e) {
