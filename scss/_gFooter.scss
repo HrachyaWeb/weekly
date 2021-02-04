@@ -47,6 +47,9 @@
       font-size: 16px;
       line-height: 19px;
       color: #C4C4C4;
+      &:hover,&:focus{
+        color: #fff;
+      }
     }
   }
 

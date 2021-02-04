@@ -10,7 +10,7 @@
       left:-19%
     }
     @media(max-width: 991px){
-      left:-12%
+      left:-25%
     }
     transform: rotate(-50deg);
     transition: all .5s ease;
@@ -18,9 +18,9 @@
   &-bg {
     position: absolute;
     left: 0;
-    top: -130px;
+    top: -300px;
     transition: all .5s ease;
-    width: 250px;
+    width: 450px;
     @media(max-width: 767px){
       display: none;
     }

@@ -27,18 +27,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c34219e-2671-401b-9da4-501df1b803c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Anna Grigoryan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Anna Grigoryan.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_gArticles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_gArticles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_gCategories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_gCategories.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_gFooter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_gFooter.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_gSubscribe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_gSubscribe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_settings.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +54,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nvxdXMdMzXI6dM9XSvY9rWWL3W" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -127,6 +124,7 @@
       <workItem from="1612335749493" duration="365000" />
       <workItem from="1612336132761" duration="9261000" />
       <workItem from="1612372722265" duration="1311000" />
+      <workItem from="1612451177843" duration="4506000" />
     </task>
     <servers />
   </component>
@@ -161,6 +159,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="353" width="697" height="334" key="#File_Watchers" timestamp="1612337265276">
