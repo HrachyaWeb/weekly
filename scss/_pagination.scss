@@ -1,0 +1,36 @@
+.pagination{
+  display: flex;
+  justify-content: center;
+  .screen-reader-text{
+    display: none;
+
+  }
+  .nav-links{
+    display: flex;
+    align-items: center;
+    .page-numbers{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000;
+
+      margin-right: 7px;
+      &.current{
+        color: #ffffff;
+        background: $secondary_color;
+        padding: 6px 10px;}
+        &.next,&.previous{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 36px;
+          line-height: 42px;
+          color: $secondary_color;
+
+      }
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}

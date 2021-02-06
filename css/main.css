@@ -679,6 +679,86 @@ a:hover, a:focus {
   margin-bottom: 60px;
 }
 
+.cCategories-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  padding: 15px 0;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.cCategories-item * {
+  margin: 0;
+}
+.cCategories-item:hover, .cCategories-item:focus {
+  -webkit-box-shadow: 0px 0px 8px -1px #DDDDDD;
+     -moz-box-shadow: 0px 0px 8px -1px #DDDDDD;
+          box-shadow: 0px 0px 8px -1px #DDDDDD;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.cCategories-item * {
+  margin: 0;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+}
+.pagination .screen-reader-text {
+  display: none;
+}
+.pagination .nav-links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+          align-items: center;
+}
+.pagination .nav-links .page-numbers {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+  margin-right: 7px;
+}
+.pagination .nav-links .page-numbers.current {
+  color: #ffffff;
+  background: #E98C4A;
+  padding: 6px 10px;
+}
+.pagination .nav-links .page-numbers.next, .pagination .nav-links .page-numbers.previous {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #E98C4A;
+}
+.pagination .nav-links .page-numbers:last-child {
+  margin-right: 0;
+}
+
 .gFooter {
   background: #506e45;
   padding: 130px 0;
@@ -705,11 +785,8 @@ a:hover, a:focus {
     margin-top: 30px;
   }
 }
-.
-@media (max-width: 574px){
-  gFooter-navigation {
-    text-align: center;
-}
+.gFooter-navigation {
+  text-align: center;
 }
 .gFooter-list {
   display: block;

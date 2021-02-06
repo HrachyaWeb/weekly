@@ -27,23 +27,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c34219e-2671-401b-9da4-501df1b803c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Default/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_bArticles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/_wSearch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/categories.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_cCategories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/_pagination.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_color.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_gArticles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_gArticles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_gCategories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_gCategories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_gFooter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_gFooter.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_gSubscribe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_gSubscribe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_w-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_w-header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,6 +129,7 @@
       <workItem from="1612372722265" duration="1311000" />
       <workItem from="1612451177843" duration="8120000" />
       <workItem from="1612506930027" duration="10206000" />
+      <workItem from="1612604698977" duration="6001000" />
     </task>
     <servers />
   </component>
@@ -267,6 +257,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612344285103" />
+    <state x="449" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612604908425">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="449" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1612604908425" />
     <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1612509972780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
