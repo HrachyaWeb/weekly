@@ -1,0 +1,9 @@
+.bArticles{
+  padding: 0 0 130px 0;
+  & &-item{
+    margin-bottom: 60px;
+  }
+  &-content__footer{
+    margin-bottom: 60px;
+  }
+}

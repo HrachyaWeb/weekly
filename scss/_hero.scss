@@ -2,18 +2,18 @@
 
 
 .hero{
-  background: $main_green  url("../images/TRIANGLE.svg") no-repeat right -20% bottom -20%;
+  background: $main_color  url("../images/TRIANGLE.svg") no-repeat right -20% bottom -20%;
   background-size:831px 813px ;
   @media ( max-width:1200px) {
   background-size: 50%;
 
   }
   @media(max-width: 991px){
-    background: $main_green  url("../images/TRIANGLE.svg") no-repeat right -20% top 20%;
+    background: $main_color  url("../images/TRIANGLE.svg") no-repeat right -20% top 20%;
     background-size: 50%;
   }
   @media (max-width: 767px) {
-    background: $main_green;
+    background: $main_color;
   }
   padding: 80px 0;
 

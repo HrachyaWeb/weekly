@@ -12,7 +12,7 @@
   padding: 17px 71px;
   font-size: 24px;
   line-height: 28px;
-  color: $main_green;
+  color: $main_color;
   background-color: #fff;
   border:2px solid #fff;
   transition: all .4s ease;
@@ -23,7 +23,7 @@
   &:hover,
   &:focus{
     text-decoration: none;
-    background: $main_green;
+    background: $main_color;
     color:#fff;
 transition: all .4s ease;
   }

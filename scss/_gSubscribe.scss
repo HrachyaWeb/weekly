@@ -1,6 +1,6 @@
 .gSubscribe{
   padding: 130px 0;
-  background: #E98C4A;
+  background: $secondary_color;
   position: relative;
   transition: all .5s ease;
   overflow: hidden;
@@ -75,7 +75,7 @@
     &__submit{
       border:none;
       background-color: #fff;
-      color:$main_green;
+      color:$main_color;
       padding: 10px 71px;
       @media (max-width: 574px) {
         display: block;
